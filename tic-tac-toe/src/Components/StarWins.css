@@ -1,0 +1,74 @@
+/* StarWins.css */
+.main-box {
+    width: 45rem;
+    /* Adjust the width to match the main div */
+    height: 9rem;
+    /* Adjust the height to match the main div */
+    flex-shrink: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.06) 18.75%, rgba(0, 0, 0, 0.00) 49.71%, rgba(0, 0, 0, 0.04) 82.81%, rgba(0, 0, 0, 0.20) 100%), var(--X-Color-500, #C6D4D9);
+    box-shadow: -16px 28px 108px 0px rgba(0, 0, 0, 0.55);
+    position: fixed;
+    top: 22%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+}
+
+.heading {
+    padding: 0;
+    color: var(--Gray-900, #4F5D64);
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 3.5rem;
+    /* Adjust the font size to fit within the scaled-down main-box */
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/* .next-round,
+.restartB {
+    display: flex;
+    padding: 0.25rem 0.5rem;
+    /* Reduce the padding for a smaller button */
+/* justify-content: center;
+align-items: center;
+gap: 0.25rem;
+border-radius: 0.5rem;
+font-size: 0.5rem; */
+/* Adjust the font size to fit within the scaled-down main-box */
+/* background: var(--Gray-900, #4F5D64);
+box-shadow: -2px 2px 2px 4px rgba(155, 164, 167, 0.40) inset,
+2px -2px 2px 4px rgba(0, 0, 0, 0.45) inset;
+} */
+
+.text-nr,
+.text-res {
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    border-radius: 0.5rem;
+    margin-top: 0%;
+    color: #EED2A1;
+    font-family: Inter;
+    font-size: 1rem;
+    /* Adjust the font size to fit within the scaled-down main-box */
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2625rem;
+    text-transform: uppercase;
+    background: var(--Gray-900, #4F5D64);
+    box-shadow: -2px 2px 2px 4px rgba(155, 164, 167, 0.40) inset, 2px -2px 2px 4px rgba(0, 0, 0, 0.45) inset;
+}
